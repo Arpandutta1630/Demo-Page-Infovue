@@ -9,7 +9,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4; /* Add a light background color */
+            background-color: #f4f4f4; 
         }
         .navbar {
             background-color: #6A5ACD;
@@ -18,19 +18,19 @@
             text-align: center;
         }
         .search-container {
-            text-align: center; /* Align the search container to the center */
+            text-align: center; 
             margin-top: 10px;
         }
         input[type=text] {
             padding: 10px;
-            margin-right: 8px; /* Adjust margin-right */
+            margin-right: 8px; 
             border: 1px solid #ccc;
             border-radius: 4px;
             box-sizing: border-box;
-            width: 200px; /* Set a fixed width for the input */
+            width: 200px; 
         }
         button {
-            padding: 10px 20px; /* Adjust padding for a more balanced button */
+            padding: 10px 20px; 
             background-color: #4CAF50;
             color: white;
             border: none;
@@ -38,7 +38,7 @@
             cursor: pointer;
         }
         button:hover {
-            background-color: #45a049; /* Darken the button on hover */
+            background-color: #45a049; 
         }
         .content {
             margin: 20px;
@@ -62,7 +62,7 @@
             color: white;
         }
         tr:nth-child(even) {
-            background-color: #f9f9f9; /* Add alternating row color */
+            background-color: #f9f9f9; 
         }
     </style>
 </head>
@@ -96,8 +96,7 @@
         </thead>
         <tbody>
             <?php
-            //   fetch data from your database and loop through the records to display them
-            // For the sake of example, I'm using static data here
+            
             $applications = [
                 ['id' => 1, 'name' => 'Arpan Dutta', 'email' => 'Arpan@example.com', 'applied_for' => 'Front end web Developer', 'applied_on' => '2024-01-11', 'status' => 'Pending'],
                 ['id' => 2, 'name' => 'Sayon Guha', 'email' => 'Sayon@example.com', 'applied_for' => 'Graphic Designer', 'applied_on' => '2024-01-12', 'status' => 'Approved'],
